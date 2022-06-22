@@ -1,5 +1,5 @@
 
-# Demo Java Spring project to send messages asynchronously using Artemis
+# Demo Spring Boot application to send messages asynchronously using Artemis
 
 This is a demo project I wrote to send and consume messages asynchronously using Artemis (ActiveMQ). This project contains a POST Rest endpoint to send JSON data for an Order, which will be converted and sent to an Artemis message queue. An active JMSListener will consume messages from this message queue and will output the consumed message content in the console.
 
